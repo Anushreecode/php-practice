@@ -1,9 +1,8 @@
 <?php
-function summ($a, $b) { //parameter is a b
-// what is prameter and argument ?
-    $sumer = $a + $b;
-    return $sumer; 
-}
-
-echo summ(5,6) 
+$var1= 15;
+$var2= 30;
+$sum = $var1 + $var2;
+echo $sum,"\n";
+$sum1 = $var1 + $var2;
+echo $sum1;
 ?>
